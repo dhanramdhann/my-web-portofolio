@@ -1,0 +1,250 @@
+* {
+  padding: 25px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 20px;
+  background-color: #0e0d0d;
+}
+.container-1 {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+.box-1 {
+  margin: auto;
+  width: 440px;
+  height: 500px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+.box-1 img {
+  padding: 20px;
+  height: 96px;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -3%;
+}
+h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600px;
+  letter-spacing: 2%;
+}
+p {
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: white;
+}
+.decoration {
+  width: 200px;
+  height: 2px;
+}
+.container-2 {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+.box-2 {
+  margin: auto;
+  width: 440px;
+  height: 350px;
+  background-color: #2a2a2a;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+a {
+  margin-top: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 340px;
+  height: 68px;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+}
+a h6 {
+  color: white;
+  margin: 10px;
+  padding-top: 10px;
+  position: absolute;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  text-justify: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.container-3 {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.box-3 {
+  margin: auto;
+  width: 440px;
+  height: 400px;
+  background-color: #2a2a2a;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.myskillslogo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myskillslogo img {
+  height: 130px;
+  margin-top: 15%;
+  margin-left: 10px;
+}
+
+.box-3 h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 7%;
+  word-spacing: 155px;
+  text-shadow: 0px 3px 5px darkblue;
+}
+
+.container-4 {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.box-4 {
+  margin: auto;
+  width: 440px;
+  height: 660px;
+  background-color: #2a2a2a;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.moon {
+  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 420px;
+  height: 637px;
+  border-radius: 20px;
+  background-image: url('img/la.jpg');
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+}
+
+.moon img {
+  height: 280px;
+  margin-top: 70px;
+}
+
+.moon h6 {
+  font-size: 20px;
+  margin-top: 70px;
+  text-shadow: 0px 10px 12px darkblue;
+}
+
+@media (max-width: 900px) {
+  .box-1 {
+    width: 330px;
+    height: 330px;
+  }
+  img {
+    height: 80px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    margin-top: 1px;
+    font-size: 12px;
+  }
+  .box-2 {
+    width: 330px;
+    height: 250px;
+  }
+  a {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    width: 260px;
+    height: 48px;
+  }
+  a h6 {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 7px;
+    padding-top: 7px;
+  }
+  .box-3 {
+    width: 330px;
+    height: 280px;
+  }
+    .myskillslogo img {
+    height: 100px;
+  }
+  .box-3 h3 {
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 7%;
+    word-spacing: 115px;
+    text-shadow: 0px 3px 5px darkblue;
+  }
+  .box-4 {
+    width: 330px;
+    height: 465px;
+  }
+  .moon {
+    margin-top: 7px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 450px;
+  }
+  .moon img {
+    height: 230px;
+    margin-top: 50px;
+  }
+  .moon h6 {
+    font-size: 15px;
+    margin-top: 30px;
+    text-shadow: 0px 10px 12px darkblue;
+  }
+}
